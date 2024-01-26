@@ -13,14 +13,14 @@ permalink: /search
   </div>
 
   <!-- Script pointing to search-script.js -->
-  <script src="{{'/assets/js/search-script.js' | prepend: relative_url}}" type="text/javascript"></script>
+  <script src="{{'/assets/js/search-script.js' | absolute_url}}" type="text/javascript"></script>
 
   <!-- Configuration -->
   <script>
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      json: '{{'/assets/js/search.json' | prepend: relative_url}}'
+      json: '{{' / assets / js / search.json' | absolute_url}}'
     })
   </script>
 </div>
