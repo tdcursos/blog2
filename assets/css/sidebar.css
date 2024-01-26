@@ -125,9 +125,10 @@
 .sidebar-footer {
   text-align: center;
   font-size: 1.5rem;
+  color: var(--text-color-light);
 }
 
 .sidebar-footer a {
   text-decoration: none;
-  color: var(--details-color-gray);
+  color: var(--details-color-blue);
 }
