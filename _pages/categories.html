@@ -14,7 +14,7 @@ title: Categorias
     <a name="{{ category_name | slugify }}"></a>
     {% for post in site.categories[category_name] %}
     <div class="categories-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      <h4><a href="{{ post.url | absolute_url}}">{{post.title}}</a></h4>
     </div>
     {% endfor %}
   </div>
