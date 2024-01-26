@@ -122,7 +122,7 @@ window.addEventListener("scroll", function () {
 // Banner Post
 let bannerPost = document.querySelector(".post-banner img").getAttribute("src");
 
-if (!bannerPost.contains("assets")) {
+if (!bannerPost.includes("assets")) {
   let bannerHidden = document.querySelector(".post-banner");
   bannerHidden.style.display = "none";
 }
