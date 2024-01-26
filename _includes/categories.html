@@ -5,7 +5,6 @@
   {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
-  <!-- <a href="/categorias/#{{category | slugify | prepend: absolute_url }}">{{category | capitalize}}</a> -->
   <a href="{{'/categorias/' | absolute_url}}#{{category | slugify }}">{{category | capitalize}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
