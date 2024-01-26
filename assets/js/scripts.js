@@ -126,6 +126,3 @@ if (!bannerPost.includes("assets")) {
   let bannerHidden = document.querySelector(".post-banner");
   bannerHidden.style.display = "none";
 }
-
-// if (bannerPost == "") {
-// }
