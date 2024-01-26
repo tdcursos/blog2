@@ -7,10 +7,5 @@ source "https://rubygems.org"
 
 gem 'rouge' # syntax_highlighter
 
-group :jekyll_plugins do
-  gem "jekyll-toc"
-  gem "jekyll-feed"
-  gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
-  gem "github-pages"
-end
+gem 'github-pages', group: :jekyll_plugins
+
