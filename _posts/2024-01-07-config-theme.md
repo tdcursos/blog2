@@ -23,6 +23,8 @@ Faça login na sua conta do GitHub, vá até o repositório [desse tema]() e cli
 
 Faça login na sua conta do GitHub, vá até o repositório [desse tema]() e clique em `Fork`. Abrirá uma nova página para criar um novo fork. Defina o nome desse repositório como `USERNAME.github.io`.
 
+Eu fui criado a partir de um fork :)
+
 ### 3. Fazendo o Download dos arquivos diretamente para a sua máquina
 
 Faça login na sua conta do GitHub, vá até o repositório [desse tema](), clique em `Code` e baixe os arquivos desse tema através da opção _Download ZIP_. Crie um novo repositório vazio com o nome `USERNAME.github.io`, faça o clone dele para a sua máquina e adicione os arquivos extraídos do arquivo zip baixado para dentro dele.
